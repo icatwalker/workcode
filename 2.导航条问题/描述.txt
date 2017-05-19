@@ -1,0 +1,6 @@
+http://dls.bj.189.cn/wechat/apps/food/foodIndex.html
+导航栏在内容里 系统无法 无法调用导航条 ，不能做操作  例如，不能所有内容接截屏。 
+修改思路：让整体内容放到 div 中 宽度100%;
+让 装内容的 div  overflow:hidden;
+
+代码修改如图

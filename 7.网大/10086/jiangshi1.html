@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>培训动态</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no" />
+	
+	<script type="text/javascript" src="js/amazeui.ie8polyfill.min.js"></script>
+	<script type="text/javascript" src="js/amazeui.widgets.helper.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+	<script type="text/javascript" src="js/amazeui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/amazeui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/cmccfonts.css">
+  <style type="text/css">
+    .swiper-slide img{
+        max-width: 100%;
+    }
+  </style>
+  <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+    <style>
+   
+    .navs{position: fixed;
+    	top:0;
+      background-image: url("images/nav.png");
+  background-size: 100% 100%;
+  width: 100%;
+  z-index: 2;
+      height: 92px;text-align: center;}
+    .navs li{display: inline-block;line-height: 92px;font-size: 1.5em;
+      font-weight: bold;
+    }
+    .am-topbar2{
+      background: url(nav.png);
+      position: fixed;
+      height: 87px;
+    }
+    body{
+    	background-image: url(images/bg2.jpg);
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	overflow: hidden;
+    }
+    .xueyuanp{font-size:2em;line-height: 1.7em;text-indent:2em;padding: 20px;
+    	margin-top: 72px;
+    	}
+    .am-dropdown-content::after, .am-dropdown-content::before{
+    	/*margin-left: 465px;*/
+    }
+    .am-popup{
+    }
+    .ampopdiv li{
+    	text-align:center; 
+    	height: 100%;
+    	padding: 10px;
+    }
+    .am-popup-inner{overflow: hidden;}
+    </style>
+</head>
+<body>
+
+<div class="am-avg-sm-5 navs" id="topnav"  data-am-dropdown="{justify: '#topnav'}">
+<li><a href="http://192.168.1.60:8080/10086/index.html"><i class="icon-cmcc" style="font-size:2.5em; line-height:1.9;"></i></a></li>
+  <li><a href="http://192.168.1.60:8080/10086/xueyuan.html"><i class="am-icon-info"></i>&nbsp;&nbsp;学院简介</a></li>
+  <li><a href="http://192.168.1.60:8080/10086/dangxiao.html"><i class="icon-ccp"></i>&nbsp;&nbsp;移动党校</a></li>
+  <li class="am-dropdown-toggle" data-am-dropdown-toggle><a href="#"><i class="icon-office"></i>&nbsp;&nbsp;教学风采</a></li>
+  <ul class="am-dropdown-content" style="text-align:center;">
+    <li class="am-dropdown-header">导航</li>
+    <li class="am-divider"></li>
+    <li><a href="#" data-am-modal="{target: '#my-popup',width:'200'}">教学概况</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/peixun.html">培训动态</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/kecheng.html">课程撷英</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/jiangshi.html">讲师风采</a></li>
+  </ul>
+  <li><a href="http://192.168.1.60:8080/10086/daxue.html"><i class="am-icon-columns"></i>&nbsp;&nbsp;网上大学</a></li>
+</div>
+
+<div class="am-popup" id="my-popup">
+  <div class="am-popup-inner">
+    <div class="am-popup-bd ampopdiv am-avg-sm-2">
+      <li>中国移动学院教学篇H5
+      <a href="http://192.168.1.60:8080/10086/jiaoxueh5.html"><img src="images/mbh5.jpg" class="am-img-responsive am-img-thumbnail" /></a>
+      </li>
+      <li>中国移动学院教学展板
+      <a href="zhanban.html"><img src="images/mbzb.jpg" class="am-img-responsive am-img-thumbnail" /></a>
+      </li>
+    </div>
+  </div>
+</div>
+
+
+<div style="margin-top:100px;">
+  <h1 style="text-align:center;">讲师介绍</h1>
+
+
+
+<div class="gkktwo-right" style="padding:20px;font-size:16px;">
+    
+    <div class="am-g">
+      <div class="am-u-sm-8">
+      <h2>讲师介绍</h2>
+        <p>
+          <b>讲师姓名：</b>李老师<br />
+          <b>所在公司：</b>中国移动学院<br />
+          <b>岗位名称：</b>教学项目经理<br />
+          <b>讲师级别：</b>学校讲师
+        </p>
+      </div>
+      <div class="am-u-sm-4">
+        <img src="images/jiangshi3.jpg" class="am-img-thumbnail am-radius" style="max-width:200px;" />
+      </div>
+    </div>
+    
+    <h2>专业资历</h2>
+
+    <p>台湾金融投资与风险管理专家<br>中国注册职业经理人认证培训高级讲师<br>美国ICQAC国际职业培训师协会高级讲师<br>中国生产力中心高级顾问<br>行为分析管理理念的倡导与推动者<br>曾任：国泰金控集团培训部经理；美商大都会人寿保险公司资深经理；台湾富山地产公司副总经理；宝盛证券公司副总经理及长荣投资顾问公司总经理等职<br>从事企业管理、咨询、培训工作长达30年，其中10年以上的海外企业集团从业经验。在常年企业管理中积累了丰富的中西方先进企业管理经验。<br>萧老师在金融行业销售及管理岗位上实践经验丰富。曾以18个月的时间内将一支销售团队在业绩责任额已经提升了250%的情况下，依然每月业绩以30%以上增涨。在这一成功基础上该团队至今已超过去15年依然在业界保持着顶尖销售团队的称号。萧老师为此团队成功培养了超过20人以上成功经理人，并享有“伯乐”与“师者”的美誉。在另一家外资公司当任职业经理人期间曾以一年内帮助企业实现从无到有的高效团队建设，并打造成为该企业人均生产力最高的团队。<br>&nbsp; &nbsp; 萧老师授课风格风趣幽默，且又不失课程深度及实用性。他的课程内容充分体现其多年来研究中国传统文化的精髓与其丰富的企业管理经验的完美结合，让学员不仅能从中提升个人修养且能领悟中西企业管理精华，并掌握多个有效的管理工具。其所辅导过的企业都给予了他很高的评价，课程满意度在90%以上。他在学员心中不仅是一位实战经验非常丰富的管理学专家，同时是一位受学员所爱戴长者。<br></p>
+
+
+    <h2>授课经验</h2>
+
+    <p>台湾：全国工业总会、中国生产力中心、彰化工业会、云林工业会、新竹科学园区公会、金属工业发展中心、台中县社会局、青创会、台中市企经会、南华大学、台中高级农校、国泰金控集团 ；宝盛证券公司、金宝盛黄金珠宝公司、宝盛投顾集团；富山房地产建设开发公司、连警企业集团、禾农企业公司、万福企业公司、双瀚企业有限公司；美商大都会人寿、美商纽约人寿、众元投资顾问公司、美商安利公司、中华电信、汉翔公司、瀚宇彩晶、乾坤科技、旭德科技、瑞昱半导体、信孚产业、汇芳鞋业、萱华工业、爱地雅工业、承韦家具、宏全金属、绿点高新、大荣货运等企业、美律实业公司、兴霖食品公司、般若科技公司、伟全企业公司、筌诚机械公司、三提企业公司。。。。。。
+大陆：中国（南宁）平安保险、中国人寿、中国（青岛）太平洋保险公司、新华人寿保险公司、信诚人寿保险公司、南宁衣香廊企业、国海证券（深圳、南宁、桂林、柳州、玉林、梧州。。。。。。等分公司）、中国农业银行南宁支行、武汉嘉龙、东莞（台资）金字塔、广西大学、广西电业集团龙胜水利公司。。。…… </p>
+
+
+    <h2>授课风格</h2>
+
+    <p>李老师的授课风格是深入浅出，风趣幽默，能将多年的实际管理经验和咨询经验融合于课程内容当中，将枯燥的理论知识与实际案例、互动游戏相结合，使学员在轻松活泼的气氛当中得到学习；授课内容切中要害、可操作性强。</p>
+
+    <h2>擅长课程</h2>
+    <p>打造巅峰销售团队</p>
+    <p>新进员工敬业发展与职涯规划</p>
+
+
+员工辅导技巧与自我素养提升训练营
+卓越员工的12项修炼
+卓越营销团队建设与管理
+怎样打造优秀的财务部
+</div>
+<div class="ccc">
+<img src="images/goback.png" onclick="window.history.go(-1)" />
+</div>
+</body>
+</html>

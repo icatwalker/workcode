@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>aa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no" />
+  
+  <script type="text/javascript" src="js/amazeui.ie8polyfill.min.js"></script>
+  <script type="text/javascript" src="js/amazeui.widgets.helper.min.js"></script>
+  <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="js/amazeui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/amazeui.min.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/cmccfonts.css">
+  <style type="text/css">
+    .swiper-slide img{
+        max-width: 100%;
+    }
+  </style>
+  <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+    <style>
+   
+    .navs{position: fixed;
+      background-image: url("images/nav.png");
+  background-size: 100% 100%;
+  width: 100%;
+  z-index: 2;
+      height: 92px;text-align: center;}
+    .navs li{display: inline-block;line-height: 92px;font-size: 1.5em;
+      font-weight: bold;
+    }
+    .am-topbar2{
+      background: url(nav.png);
+      position: fixed;
+      height: 87px;
+    }
+    </style>
+</head>
+<body>
+<div class="am-avg-sm-5 navs" id="topnav"  data-am-dropdown="{justify: '#topnav'}">
+<li><a href="http://192.168.1.60:8080/10086/index.html"><i class="icon-cmcc" style="font-size:2.5em; line-height:1.9;"></i></a></li>
+  <li><a href="http://192.168.1.60:8080/10086/xueyuan.html"><i class="am-icon-info"></i>&nbsp;&nbsp;学院简介</a></li>
+  <li><a href="http://192.168.1.60:8080/10086/dangxiao.html"><i class="icon-ccp"></i>&nbsp;&nbsp;移动党校</a></li>
+  <li class="am-dropdown-toggle" data-am-dropdown-toggle><a href="#"><i class="icon-office"></i>&nbsp;&nbsp;教学风采</a></li>
+  <ul class="am-dropdown-content" style="text-align:center;">
+    <li class="am-dropdown-header">导航</li>
+    <li class="am-divider"></li>
+    <li><a href="#" data-am-modal="{target: '#my-popup',width:'200'}">教学概况</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/peixun.html">培训动态</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/kecheng.html">课程撷英</a></li>
+    <li class="am-divider"></li>
+    <li><a href="http://192.168.1.60:8080/10086/jiangshi.html">讲师风采</a></li>
+  </ul>
+  <li><a href="http://192.168.1.60:8080/10086/daxue.html"><i class="am-icon-columns"></i>&nbsp;&nbsp;网上大学</a></li>
+</div>
+
+<div class="am-popup" id="my-popup">
+  <div class="am-popup-inner">
+    
+    <div class="am-popup-bd ampopdiv am-avg-sm-2">
+      <li>中国移动学院教学篇H5
+      <a href="http://192.168.1.60:8080/10086/jiaoxueh5.html"><img src="images/mbh5.jpg" class="am-img-responsive am-img-thumbnail" /></a>
+      </li>
+      <li>中国移动学院教学展板
+      <a href="zhanban.html"><img src="images/mbzb.jpg" class="am-img-responsive am-img-thumbnail" /></a>
+      </li>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg"></div>
+            <div class="swiper-slide"><img src="images/2.jpg"></div>
+            <div class="swiper-slide"><img src="images/3.jpg"></div>
+            <div class="swiper-slide"><img src="images/4.jpg"></div>
+            <div class="swiper-slide"><img src="images/5.jpg"></div>
+            <div class="swiper-slide"><img src="images/6.jpg"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        effect:'fade',
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+
+  
+    </script>
+
+</body>
+</html>

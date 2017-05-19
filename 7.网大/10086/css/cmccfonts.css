@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'cmcc';
+    src:    url('../fonts/cmcc.eot?s8tfi2');
+    src:    url('../fonts/cmcc.eot?s8tfi2#iefix') format('embedded-opentype'),
+        url('../fonts/cmcc.ttf?s8tfi2') format('truetype'),
+        url('../fonts/cmcc.woff?s8tfi2') format('woff'),
+        url('../fonts/cmcc.svg?s8tfi2#cmcc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* added cmcc logo , wanglei 20160707 */
+    font-family: 'cmcc' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cmcc:before {
+    content: "\e906";
+}
+.icon-ccp:before {
+    content: "\e900";
+}
+.icon-cmccolor .path1:before {
+    content: "\e901";
+    color: rgb(156, 199, 21);
+}
+.icon-cmccolor .path2:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(0, 128, 203);
+}
+.icon-cmccolor .path3:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(0, 128, 203);
+}
+.icon-cmccolor .path4:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(0, 128, 203);
+}
+.icon-cmccolor .path5:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(0, 128, 203);
+}
+.icon-home:before {
+    content: "\e907";
+}
+.icon-office:before {
+    content: "\e908";
+}
+.icon-newspaper:before {
+    content: "\e909";
+}
+.icon-pencil:before {
+    content: "\e90a";
+}
+.icon-book:before {
+    content: "\e91f";
+}
+.icon-books:before {
+    content: "\e920";
+}
+.icon-library:before {
+    content: "\e921";
+}
+.icon-profile:before {
+    content: "\e923";
+}
+.icon-location:before {
+    content: "\e947";
+}
+.icon-compass:before {
+    content: "\e949";
+}
+.icon-map:before {
+    content: "\e94b";
+}
+
+.ccc{
+    position: fixed;
+    top: 1720px;
+    left: 920px;
+}.ccc img{width:150px;}
